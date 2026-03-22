@@ -891,9 +891,17 @@ select option {
     }
     
     h1 { font-size: 2.2rem; }
+
+    .hero-content {
+        grid-template-columns: 1fr;
+        justify-items: center;
+        text-align: center;
+        gap: 2rem;
+    }
     
     .hero-text {
         text-align: center;
+        width: 100%;
     }
     
     .hero-text .description {
@@ -908,6 +916,17 @@ select option {
     
     .badge {
         display: inline-block;
+    }
+    
+    .hero-visual {
+        display: flex;
+        justify-content: center;
+        width: 100%;
+    }
+    
+    .profile-card {
+        width: 100%;
+        max-width: 320px;
     }
     
     .modal-container { 
