@@ -1,0 +1,338 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jm laster D. Minguito | Portfolio & Services</title>
+    <meta name="description" content="Portfolio of Jm laster D. Minguito, BSIT student at SKSU Isulan Campus. Offering Web Development, Mobile Apps, Custom Software, and more.">
+    <link rel="icon" href="img/profile.jpg" type="image/jpeg">
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700&family=Inter:wght@400;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <!-- Background Animated Blobs -->
+    <div class="blob blob-1"></div>
+    <div class="blob blob-2"></div>
+    <div class="blob blob-3"></div>
+
+    <!-- Header Navigation -->
+    <header class="glass-nav">
+        <div class="container nav-container">
+            <a href="#" class="logo">
+                <img src="img/logo.png" alt="" class="nav-logo-img" onerror="this.style.display='none'">
+                Jems<span>Dev</span>
+            </a>
+            
+            <button class="mobile-menu-btn" id="mobile-menu-btn" aria-label="Toggle Menu">
+                <i class="fa-solid fa-bars"></i>
+            </button>
+            
+            <nav id="nav-menu">
+                <ul class="nav-links">
+                    <li><a href="#home" class="nav-link">Home</a></li>
+                    <li><a href="#services" class="nav-link">Services</a></li>
+                    <li><a href="#contact" class="btn btn-outline nav-link" id="nav-contact-btn">Hire Me</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <!-- Hero Section -->
+        <section id="home" class="hero section">
+            <div class="container hero-content">
+                <div class="hero-text">
+                    <span class="badge">Available for Work</span>
+                    <h1>Hi, I'm <span class="gradient-text">Jm laster D. Minguito</span></h1>
+                    <p class="subtitle">2nd Year BSIT Student at SKSU (Sultan Kudarat State University) Isulan Campus.</p>
+                    <p class="description">I specialize in creating modern digital experiences, from websites to mobile applications and custom software solutions tailored to your needs.</p>
+                    <div class="hero-actions">
+                        <button class="btn btn-primary" id="hero-start-btn">
+                            Start Your Project <i class="fa-solid fa-arrow-right"></i>
+                        </button>
+                    </div>
+                </div>
+                <div class="hero-visual">
+                    <div class="glass-card profile-card">
+                        <div class="profile-image-container">
+                            <img src="img/profile.jpg" alt="Jm laster D. Minguito" class="profile-img" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';">
+                            <div class="profile-image-placeholder" style="display: none;">
+                                <i class="fa-solid fa-user-astronaut"></i>
+                            </div>
+                        </div>
+                        <div class="profile-info">
+                            <h3>Developer</h3>
+                            <div class="tech-stack">
+                                <i class="fa-brands fa-html5"></i>
+                                <i class="fa-brands fa-css3-alt"></i>
+                                <i class="fa-brands fa-js"></i>
+                                <i class="fa-solid fa-code"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Tech Stack Section -->
+        <section id="tech-stack" class="tech-stack section">
+            <div class="container">
+                <div class="section-header">
+                    <h2>My <span class="gradient-text">Tech Stack</span></h2>
+                    <p>Technologies, frameworks, and tools I use to build robust solutions.</p>
+                </div>
+                <div class="tech-grid">
+                    <div class="glass-card tech-card">
+                        <h3><i class="fa-solid fa-code"></i> Core & Low-Level</h3>
+                        <div class="tech-tags">
+                            <span class="tech-tag">C++</span>
+                            <span class="tech-tag">Java</span>
+                        </div>
+                    </div>
+                    <div class="glass-card tech-card">
+                        <h3><i class="fa-solid fa-globe"></i> Web Stack</h3>
+                        <div class="tech-tags">
+                            <span class="tech-tag">PHP</span>
+                            <span class="tech-tag">JavaScript</span>
+                            <span class="tech-tag">HTML/CSS</span>
+                        </div>
+                    </div>
+                    <div class="glass-card tech-card">
+                        <h3><i class="fa-solid fa-mobile-screen"></i> Mobile Stack</h3>
+                        <div class="tech-tags">
+                            <span class="tech-tag">Flutter (Dart)</span>
+                            <span class="tech-tag">React Native</span>
+                        </div>
+                    </div>
+                    <div class="glass-card tech-card">
+                        <h3><i class="fa-solid fa-database"></i> Backend & DB</h3>
+                        <div class="tech-tags">
+                            <span class="tech-tag">PostgreSQL</span>
+                            <span class="tech-tag">MySQL</span>
+                            <span class="tech-tag">Firebase</span>
+                            <span class="tech-tag">Supabase</span>
+                        </div>
+                    </div>
+                    <div class="glass-card tech-card">
+                        <h3><i class="fa-solid fa-layer-group"></i> Frameworks</h3>
+                        <div class="tech-tags">
+                            <span class="tech-tag">Bootstrap 5</span>
+                            <span class="tech-tag">Laravel</span>
+                            <span class="tech-tag">Node.js</span>
+                        </div>
+                    </div>
+                    <div class="glass-card tech-card">
+                        <h3><i class="fa-solid fa-microchip"></i> Hardware / IoT</h3>
+                        <div class="tech-tags">
+                            <span class="tech-tag">Arduino</span>
+                            <span class="tech-tag">ESP32</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Services Carousel Section -->
+        <section id="services" class="services section">
+            <div class="container">
+                <div class="section-header">
+                    <h2>My <span class="gradient-text">Services</span></h2>
+                    <p>Comprehensive solutions designed for businesses, students, and startups.</p>
+                </div>
+                
+                <div class="carousel-container">
+                    <button class="carousel-btn prev-btn" aria-label="Previous service"><i class="fa-solid fa-chevron-left"></i></button>
+                    <div class="carousel-track-container">
+                        <ul class="carousel-track">
+                            <li class="carousel-slide current-slide">
+                                <div class="glass-card service-card">
+                                    <div class="service-icon"><i class="fa-solid fa-laptop-code"></i></div>
+                                    <h3>Web Development</h3>
+                                    <p>Responsive, fast, and modern websites visually engaging and highly functional.</p>
+                                </div>
+                            </li>
+                            <li class="carousel-slide">
+                                <div class="glass-card service-card">
+                                    <div class="service-icon"><i class="fa-solid fa-mobile-screen"></i></div>
+                                    <h3>Mobile Applications</h3>
+                                    <p>Cross-platform and native mobile apps to bring your platform directly to users.</p>
+                                </div>
+                            </li>
+                            <li class="carousel-slide">
+                                <div class="glass-card service-card">
+                                    <div class="service-icon"><i class="fa-solid fa-microchip"></i></div>
+                                    <h3>Custom Software</h3>
+                                    <p>Tailored software solutions designed around your unique business requirements.</p>
+                                </div>
+                            </li>
+                            <li class="carousel-slide">
+                                <div class="glass-card service-card">
+                                    <div class="service-icon"><i class="fa-solid fa-graduation-cap"></i></div>
+                                    <h3>Capstone Projects</h3>
+                                    <p>End-to-end assistance and programming for student capstone systems and documentation.</p>
+                                </div>
+                            </li>
+                            <li class="carousel-slide">
+                                <div class="glass-card service-card">
+                                    <div class="service-icon"><i class="fa-solid fa-code"></i></div>
+                                    <h3>Programming Activities</h3>
+                                    <p>Tutor-like guidance and code solutions for school programming activities.</p>
+                                </div>
+                            </li>
+                            <li class="carousel-slide">
+                                <div class="glass-card service-card">
+                                    <div class="service-icon"><i class="fa-solid fa-cart-shopping"></i></div>
+                                    <h3>E-commerce Solutions</h3>
+                                    <p>Robust online stores with secure payment gateways and flawless user experience.</p>
+                                </div>
+                            </li>
+                            <li class="carousel-slide">
+                                <div class="glass-card service-card">
+                                    <div class="service-icon"><i class="fa-solid fa-network-wired"></i></div>
+                                    <h3>IoT Systems</h3>
+                                    <p>Smart, connected hardware solutions for automation and remote monitoring.</p>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                    <button class="carousel-btn next-btn" aria-label="Next service"><i class="fa-solid fa-chevron-right"></i></button>
+                </div>
+                <div class="carousel-nav">
+                    <!-- Dots generated by JS -->
+                </div>
+            </div>
+        </section>
+
+        <!-- Call to Action Section -->
+        <section class="cta section">
+            <div class="container">
+                <div class="glass-card cta-card">
+                    <h2>Ready to Begin your <span class="gradient-text">Project</span>?</h2>
+                    <p>Let's turn your vision into reality. I'm available for freelance work, capstone collaborations, and building impactful products. Tell me about your requirements, and let's craft something amazing together.</p>
+                    <button class="btn btn-primary btn-large glow-btn" id="cta-start-btn">
+                        <i class="fa-solid fa-rocket"></i> Start your project Today
+                    </button>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <p>&copy; 2026 Jm laster D. Minguito | SKSU Isulan Campus. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <!-- Project Inquiry Form Modal -->
+    <div class="modal-overlay" id="inquiry-modal">
+        <div class="modal-container glass-card">
+            <button class="modal-close" id="modal-close-icon"><i class="fa-solid fa-xmark"></i></button>
+            <div class="modal-header">
+                <h2>Project Inquiry</h2>
+                <p>Fill out the details below to give me a head start on your project.</p>
+            </div>
+            
+            <form id="inquiry-form" class="inquiry-form">
+                <!-- Section 1: Contact Info -->
+                <div class="form-section">
+                    <h3><i class="fa-regular fa-address-card"></i> Contact Information</h3>
+                    <div class="form-grid">
+                        <div class="form-group">
+                            <label for="fullname">Full Name</label>
+                            <input type="text" id="fullname" name="fullname" placeholder="Fullname" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Email Address</label>
+                            <input type="email" id="email" name="email" placeholder="Email" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="phone">Phone Number</label>
+                            <input type="tel" id="phone" name="phone" placeholder="Phone Number" required>
+                        </div>
+                        <div class="form-group social-group">
+                            <label>Social Media Profiles</label>
+                            <div class="social-inputs">
+                                <div class="input-with-icon">
+                                    <i class="fa-brands fa-facebook"></i>
+                                    <input type="text" name="facebook" placeholder="Facebook URL/Username">
+                                </div>
+                                <div class="input-with-icon mt-2">
+                                    <i class="fa-brands fa-instagram"></i>
+                                    <input type="text" name="instagram" placeholder="Instagram URL/Username">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Section 2: Project Details -->
+                <div class="form-section">
+                    <h3><i class="fa-solid fa-list-check"></i> Project Details</h3>
+                    <div class="form-grid">
+                        <div class="form-group">
+                            <label for="project-type">Project Type</label>
+                            <div class="select-wrapper">
+                                <select id="project-type" name="project_type" required>
+                                    <option value="" disabled selected>Select a service</option>
+                                    <option value="Web Development">Web Development</option>
+                                    <option value="Mobile Applications">Mobile Applications</option>
+                                    <option value="Custom Software">Custom Software</option>
+                                    <option value="Capstone Projects">Capstone Projects</option>
+                                    <option value="School Programming Activities">School Programming Activities</option>
+                                    <option value="E-commerce Solutions">E-commerce Solutions</option>
+                                    <option value="IoT Systems">IoT Systems</option>
+                                </select>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label for="budget">Budget</label>
+                            <input type="text" id="budget" name="budget" placeholder="Enter Your Budget" required>
+                        </div>
+                        <div class="form-group full-width">
+                            <label for="timeline">Timeline / Deadline</label>
+                            <input type="text" id="timeline" name="timeline" placeholder="Enter Your Timeline" required>
+                        </div>
+                        <div class="form-group full-width">
+                            <label for="description">Project Description</label>
+                            <textarea id="description" name="description" rows="4" placeholder="Describe your main goal for your project" required></textarea>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Section 3: Requested Features -->
+                <div class="form-section">
+                    <h3><i class="fa-solid fa-wand-magic-sparkles"></i> Requested Features</h3>
+                    <p class="features-help">List the specific features you want.</p>
+                    <div id="features-container" class="features-container">
+                        <div class="feature-row">
+                            <input type="text" name="features[]" placeholder="Enter a Feature" class="feature-input" required>
+                            <button type="button" class="btn-icon remove-feature" disabled><i class="fa-solid fa-trash"></i></button>
+                        </div>
+                    </div>
+                    <button type="button" id="add-feature-btn" class="btn btn-outline btn-small mt-3">
+                        <i class="fa-solid fa-plus"></i> Add Another Feature
+                    </button>
+                </div>
+
+                <!-- Actions -->
+                <div class="form-actions">
+                    <button type="button" id="modal-cancel-btn" class="btn btn-outline">Cancel</button>
+                    <button type="submit" class="btn btn-primary glow-btn">Submit Inquiry</button>
+                </div>
+            </form>
+            
+            <!-- Success Message (Hidden by default) -->
+            <div id="success-message" class="success-message hidden">
+                <div class="success-icon"><i class="fa-solid fa-circle-check"></i></div>
+                <h3>Inquiry Sent Successfully!</h3>
+                <p>Thank you for reaching out. I'll review your details and get back to you soon.</p>
+                <button type="button" id="close-success-btn" class="btn btn-primary">Close</button>
+            </div>
+        </div>
+    </div>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
