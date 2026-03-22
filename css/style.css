@@ -848,6 +848,19 @@ select option {
     .carousel-slide { min-width: 100%; }
     
     .mobile-menu-btn { display: none; }
+
+    .container {
+        padding: 0 4%;
+    }
+    
+    .logo {
+        font-size: 1.25rem;
+    }
+    
+    .nav-logo-img {
+        height: 24px;
+        margin-right: 4px;
+    }
     
     #nav-menu {
         position: static;
@@ -862,19 +875,19 @@ select option {
         display: flex;
         flex-direction: row;
         flex-wrap: nowrap;
-        gap: 0.75rem;
+        gap: 0.4rem;
         align-items: center;
         text-align: center;
-        font-size: 0.75rem;
+        font-size: 0.7rem;
     }
     
     .nav-links a:not(.btn) {
-        font-size: 0.75rem;
+        font-size: 0.7rem;
     }
     
     .btn-outline.nav-link {
-        padding: 0.4rem 0.8rem;
-        font-size: 0.75rem;
+        padding: 0.35rem 0.6rem;
+        font-size: 0.7rem;
     }
     
     .section { padding: 80px 0; }
